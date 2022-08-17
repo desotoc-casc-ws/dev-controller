@@ -1,8 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "desotoc-casc-ws-dev-controller"
 description: "CloudBees CI configuration bundle for the desotoc-casc-ws dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/desotoc-casc-ws/dev-controller"
 parent: "base"
 rbac:
   - "rbac.yaml"
+items:
+  - "folder.yaml"
