@@ -1,0 +1,4 @@
+variables:
+- team: desotoc-casc-ws
+- admin-user: desotoc-admin
+- manager-user: desotoc
